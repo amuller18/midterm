@@ -31,19 +31,19 @@ public class test {
         Random line = new Random();
             int lineV = line.nextInt(0,4);
             if(lineV == 0){
-                System.out.println(op.line1(player.getName()));
+                System.out.println(opponent.line1(player.getName()));
             }
             if(lineV == 1){
-                System.out.println(op.line2(player.getAge()));
+                System.out.println(opponent.line2(player.getAge()));
             }
             if(lineV == 2){
-                System.out.println(op.line3());
+                System.out.println(opponent.line3());
             }
             if(lineV == 3){
-                System.out.println(op.line4(player.getHeight()));
+                System.out.println(opponent.line4(player.getHeight()));
             }
             else{
-                System.out.println(op.line5(player.getName()));
+                System.out.println(opponent.line5(player.get1Name()));
             }
     }
     
@@ -53,6 +53,7 @@ public class test {
 
         
         Scanner scan = new Scanner(System.in);
+        System.out.println();
         String userInput = input.getInput();
         String aiInput = ai.Move();
         System.out.println("User: " + userInput);

@@ -32,7 +32,7 @@ public opponent(){
 }
 
 public static String line1(String n){
-    return "I see that your name is " + n + "That is embarrassing";
+    return "I see that your name is " + n + " That is embarrassing";
 }
 
 public static String line2(int a){

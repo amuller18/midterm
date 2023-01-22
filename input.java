@@ -31,12 +31,9 @@ public class input {
         String age = scan.next();
         System.out.println("Please enter your height: ");
         int height = scan.nextInt();
-        System.out.println("Please enter your rating: ");
-        String rating = scan.next();
-        player p = new player(name, height, rating, height);
-        return(p);
-    }
-    public player returnP(){
+        System.out.println("Please enter your political affiliation: ");
+        String politics = scan.next();
+        player p = new player(name, height, politics, height);
         return(p);
     }
 }

@@ -22,7 +22,7 @@ public class player {
         this.name = name;
     }
 
-    public int getAge() {
+    public static int getAge() {
         return age;
     }
 
@@ -38,7 +38,7 @@ public class player {
         this.political = political;
     }
 
-    public int getHeight() {
+    public static int getHeight() {
         return height;
     }
 
