@@ -1,6 +1,8 @@
 import java.util.*;
 public class test {
 // Main class initiates the game
+    final int Loser = 0;
+    final boolean win = false;
     static opponent op = new opponent();
     public static void main(String[] args) throws Exception {
         int wins = 0;
