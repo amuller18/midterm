@@ -1,6 +1,6 @@
 import java.util.*;
 public class test {
-
+// Main class initiates the game
     static opponent op = new opponent();
     public static void main(String[] args) throws Exception {
         int wins = 0;
@@ -26,7 +26,7 @@ public class test {
 
 
     }
-
+    // This class gets and prints out the line that the AI says
     public static void lineOp(){
         Random line = new Random();
             int lineV = line.nextInt(0,4);
@@ -43,11 +43,11 @@ public class test {
                 System.out.println(opponent.line4(player.getHeight()));
             }
             else{
-                System.out.println(opponent.line5(player.get1Name()));
+                System.out.println(opponent.line5(player.getName()));
             }
     }
     
-    //Play is our main method where 
+    //Play is our main method where the actual rock paper scissors is
     public static String play(){
         
 
